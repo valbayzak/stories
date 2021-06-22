@@ -1,6 +1,6 @@
 from django.db import models
-from choices import CHOICES_TYPE
-from django.core.validators import MaxValueValidator, MinValueValidator
+from .choices import CHOICES_TYPE
+from django.core.validators import MaxValueValidator
 # Create your models here.
 
 
@@ -43,7 +43,6 @@ class UserStoryFile(models.Model):
     user = models.ForeignKey('User', on_delete=models.DO_NOTHING)
     is_watched = models.BooleanField(default=False)
     watch_date = models.DateTimeField(null=True, blank=True)
-
 
 
 class User(models.Model):
