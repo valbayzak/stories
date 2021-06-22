@@ -1,0 +1,19 @@
+Создать модели
+Зарегистрировать модели в админ панели (admin.py)
+RestAPI
+Список всех сторис
+
+Story/all/<project_id> (url path)
+Preview (Картинка для отображения превью )
+WatchedAll (Флаг указывающий посмотрел ли user все сторисы в этой рекламной акции)
+story_id
+
+список всех файлов
+story/file/<story_id> (url path)
+moreDetailedUrl (ссылка на более подробную информацию)
+moreDetailedText
+contentType (Тип файла (IMG, VIDEO))
+content_url (ссылка на файл)
+duration (Длина сториса)
+isWatched (Флаг указывающий просмотрен ли сторис)
+
